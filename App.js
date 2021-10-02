@@ -14,7 +14,7 @@ const App = () =>{
         >
           <View style={styles.vistaModal}>
             <View style={styles.Modal}>
-              <Text style={styles.subtitulo}>Hotel Sheratons Presidente</Text>
+              <Text style={styles.subtitulo}>Izalco Hotel & Beach Resort</Text>
               <Text>El Mejor Hotel para visitar en el Salvador</Text>
               <Button title="Cerrar" onPress={()=>{setModalVisibleplaya(!modalVisibleplaya)}}></Button>
             </View>
@@ -26,8 +26,8 @@ const App = () =>{
         >
           <View style={styles.vistaModal}>
             <View style={styles.Modal}>
-              <Text style={styles.subtitulo}>Suite Presidencial</Text>
-              <Text>Una de las mejores habitaciones individuales</Text>
+              <Text style={styles.subtitulo}>HABITACIÓN MATRIMONIAL</Text>
+              <Text>Una de las mejores habitaciones para parejas</Text>
               <Button title="Cerrar" onPress={()=>{setModalpresi(!modalpresi)}}></Button>
             </View>
           </View>
@@ -38,8 +38,8 @@ const App = () =>{
         >
           <View style={styles.vistaModal}>
             <View style={styles.Modal}>
-              <Text style={styles.subtitulo}>Suite Doble Deluxe</Text>
-              <Text>La mejor opcion para disfrutar en pareja</Text>
+              <Text style={styles.subtitulo}>HABITACIÓN MATRIMONIAL DELUXE</Text>
+              <Text>La mejor opcion para disfrutar en familia</Text>
               <Button title="Cerrar" onPress={()=>{setModaldoble(!modaldoble)}}></Button>
             </View>
           </View>
@@ -48,7 +48,7 @@ const App = () =>{
           <Image  style={styles.banner} source={require('./src/img/portada.jpg')} /> 
         </View>
         <View style={styles.contenedor}>
-          <Text style={styles.titulo}>Hotel Izalco Beach Resort</Text>
+          <Text style={styles.titulo}>Izalco Hotel & Beach Resort</Text>
           <ScrollView horizontal>
             <View>
               <TouchableHighlight 
